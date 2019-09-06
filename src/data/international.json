@@ -1,0 +1,47 @@
+{
+  "content": {
+    "value": "international",
+    "list": [
+      {
+        "language": "English (India)",
+        "url": "www.lonelyplanet.in"
+      },
+      {
+        "language": "Deutsch",
+        "url": "www.lonelyplanet.de"
+      },
+      {
+        "language": "Français",
+        "url": "www.lonelyplanet.fr"
+      },
+      {
+        "language": "Español",
+        "url": "www.lonelyplanet.es"
+      },
+      {
+        "language": "Italiano",
+        "url": "www.lonelyplanetitalia.it"
+      },
+      {
+        "language": "한국어",
+        "url": "www.lonelyplanet.co.kr"
+      },
+      {
+        "language": "Русский",
+        "url": "www.lonelyplanet.ru"
+      },
+      {
+        "language": "Português",
+        "url": "www.lonelyplanetbrasil.com.br"
+      },
+      {
+        "language": "Česky",
+        "url": "www.lonelyplanet.cz"
+      },
+      {
+        "language": "Nederlands",
+        "url": "www.lonelyplanet.nl"
+      }
+    ]
+  }
+}
