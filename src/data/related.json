@@ -1,0 +1,27 @@
+{
+  "content": {
+    "value": "related",
+    "list": [
+      {
+        "title": "contact us",
+        "path": "contact"
+      },
+      {
+        "title": "about us",
+        "path": "about"
+      },
+      {
+        "title": "legal",
+        "path": "legal"
+      },
+      {
+        "title": "jobs at lonely planet",
+        "path": "jobs"
+      },
+      {
+        "title": "business development",
+        "path": "partner"
+      }
+    ]
+  }
+}

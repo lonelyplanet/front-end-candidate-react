@@ -1,0 +1,30 @@
+.title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.list {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  margin: 0;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.link {
+  color: #6b727b;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+.link:hover, .link:active, .link:focus {
+  color: #277bba;
+}
