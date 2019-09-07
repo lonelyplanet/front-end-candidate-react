@@ -1,29 +1,67 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
 <h1 align="center">
   Lonely Planet React / GraphQL challenge
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This project is meant to be a relatively simple demonstration of the types of challenges a developer might face early on at Lonely Planet. It will also test some simple implementations of React and, as a bonus, GraphQL.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Instructions for setting up the repo and your development environment are below. Please reach out for help if you have trouble getting setup, as environments can be a pain and this part is not the point of the exercise.
+
+When you're ready to show off your work, push your commits to your fork either on the `master` branch or some other. Then, if you return to lonelyplanet's upstream version of this repo, you should be prompted by Github to open a pull request. Then, we'll be able to review.
+
+-----------
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Fork the repo on Github**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    From the repo in Github (https://github.com/lonelyplanet/front-end-candidate-react) use Github's fork functionality to create a copy on your own personal profile so you can begin development. At the time of writing there is a button in the top right corner of the page to do this.
+
+1.  **Clone fork onto your machine.**
+
+    From a parent directory of your choice, run the following command, replacing the github username with your own:
 
     ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    git clone git@github.com:vacas5/front-end-candidate-react.git
     ```
+
+    This requires that your computer already has [git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+1.  **Install dependencies.**
+
+    1. Navigate into your new site’s directory.
+
+        ```sh
+        cd front-end-candidate-react/
+        ```
+
+    1. Verify node version
+
+        To install dependencies, first ensure you have Node installed on your machine, and are using version 10.13.0 or higher. To check which version you have installed (if you have it installed), you can run `node -v`. It should print the version or tell you that it can't run the command in the event node isn't installed at all.
+
+        We recommend using [nvm](https://github.com/nvm-sh/nvm/) to manage your node versions if you don't have the right one installed.
+
+    1. Install dependencies using yarn
+
+        ```sh
+        yarn install
+        ```
+
+        This requires that you also have [yarn installed](https://yarnpkg.com/en/docs/install#mac-stable) on your local machine.
+
+    1. Install gatsby-cli
+
+        This tool will help you run the development server. Run the following command to install:
+
+        ```sh
+        npm install -g gatsby-cli
+        ```
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Now for the fun part
 
     ```sh
-    cd my-default-starter/
     gatsby develop
     ```
 
@@ -33,8 +71,10 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `front-end-candidate-react` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
+
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.

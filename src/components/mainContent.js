@@ -28,7 +28,7 @@ const MainContent = () => {
       {data.allDataJson.nodes[0].content.list.map(item => {
         return (
           <Fragment key={item.path}>
-            <h2 className="capitalize mt-32 responsive-xl">
+            <h2>
               <a href={item.path}>{item.title}</a>
             </h2>
             <p>{item.description}</p>
