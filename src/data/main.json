@@ -16,24 +16,24 @@
       {
         "title": "Advertising",
         "description": "Over 11 million monthly visitors come to our award-winning website for inspiration, trusted advice and entertainment. Advertise with Lonely Planet and connect your brand with our vibrant, global community.",
-        "path": "advertise",
+        "path": "https://www.lonelyplanet.com/advertise",
         "imgD": "https://lonelyplanetstatic.imgix.net/copilot/images/Ym9va3MuanBnV2VkIE1hciAyOSAyMDE3IDE0OjU4OjQyIEdNVCswMDAwIChVVEMp.jpg"
       },
       {
         "title": "Partnerships",
         "description": "Lonely Planet has been an essential resource for travellers for over 40 years. Our Business Development team can offer access to our core assets: a massive global audience, a unique range of travel products, and one of the world’s most iconic and loved travel brands.",
-        "path": "partner",
+        "path": "https://www.lonelyplanet.com/partner",
         "imgD": "https://lonelyplanetstatic.imgix.net/copilot/images/Ym9va3MuanBnV2VkIE1hciAyOSAyMDE3IDE0OjU4OjQyIEdNVCswMDAwIChVVEMp.jpg"
       },
       {
         "title": "Affiliate program",
         "description": "Lonely Planet's affiliate program enables you to earn revenue via your website. Joining the program is quick and easy and we are committed to providing a commission well above industry average on every shop sale that your site makes as well as competitive rates on qualified leads for our travel services offering.",
-        "path": "about/affiliate-program",
+        "path": "https://www.lonelyplanet.com/about/affiliate-program",
         "imgD": "'https://lonelyplanetstatic.imgix.net/copilot/images/Ym9va3MuanBnV2VkIE1hciAyOSAyMDE3IDE0OjU4OjQyIEdNVCswMDAwIChVVEMp.jpg'"
       },
       {
         "title": "Sticker Terms & Conditions",
-        "path": "terms/lp-stickers"
+        "path": "terms"
       }
     ]
   }

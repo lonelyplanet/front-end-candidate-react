@@ -4,8 +4,13 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import MainContent from "../components/mainContent";
 import RelativeLinks from "../components/relativeLinks";
+import InternationalLinks from "../components/internationalLinks";
 import Header from "../components/header";
 import "./index.css";
+import internationalData from "../components/internationalData";
+import internationalLinks from "../components/internationalLinks";
+
+// const international = internationalData.map(item => <internationalLinks key={item.language} item={item}/>)
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +24,9 @@ const IndexPage = () => (
         </div>
         <div className="right-column">
           <RelativeLinks />
+          <br />
+          <img src="https://s3resizer.mediaradar.com/s3resizer/Image/GetContent?adImageHash=1X+ximHnDCxnvuj6S26oeUoRmT0=" alt="Mastercard Ad" />
+         
         </div>
       </div>
     </div>
