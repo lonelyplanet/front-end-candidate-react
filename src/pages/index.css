@@ -31,8 +31,7 @@
 @media (min-width: 768px) {
   .page-title {
     font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
+    font-size: 20px;
   }
 }
 
@@ -47,6 +46,7 @@
     border: 0 solid #dae1e7;
     border-right-width: 1px;
     float: left;
+    align-content: left
   }
 
   .right-column {
@@ -62,7 +62,7 @@
   }
 
   .column-wrapper {
-    width: 75%;
+    width: 100%;
   }
 }
 
@@ -70,4 +70,15 @@
   .container {
     padding: 0;
   }
+}
+.nav {
+  height: 100px;
+    background-color: white;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
