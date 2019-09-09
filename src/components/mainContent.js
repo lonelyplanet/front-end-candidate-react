@@ -36,7 +36,6 @@ const MainContent = () => {
               <a style={{color: "#297CBB", textDecoration: "none", fontSize: "30px"}} href={item.path}>{item.title}</a>
             </h2>
             <p>{item.description}</p>
-            <div style={{borderBottom: "1px #dae1e7 solid"}}></div>
           </Fragment>
           </HashRouter>
         );

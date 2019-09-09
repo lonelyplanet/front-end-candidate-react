@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Header from "../components/header";
 import RelativeLinks from "../components/relativeLinks";
-
+import Helmet from "react-helmet";
 
 class trade extends Component {
   render() {
     return (
       <div>
+        <Helmet><title>Trade</title></Helmet>
           <Header />
           <div style={{backgroundColor: "whitesmoke"}}>
         <h2 style={{textAlign: "center", paddingTop: "5%", fontSize: "80px"}}>Trade</h2>

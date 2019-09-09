@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Header from "../components/header";
+import Helmet from "react-helmet";
 
 class newsroom extends Component {
   render() {
     return (
       <div>
+        <Helmet><title>Newsroom</title></Helmet>
           <Header />
           <div style={{backgroundColor: "whitesmoke"}}>
         <h2 style={{textAlign: "center", paddingTop: "5%", fontSize: "80px"}}>Press</h2>
