@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../components/header";
 import RelativeLinks from "../components/relativeLinks";
 
+
 class trade extends Component {
   render() {
     return (
@@ -11,6 +12,8 @@ class trade extends Component {
         <h2 style={{textAlign: "center", paddingTop: "5%", fontSize: "80px"}}>Trade</h2>
        
         <br />
+
+
         <h1 style={{textAlign: "center"}}>Trade Zones</h1>
         <div style={{alignContent: "center", textAlign: "center"}}>
         <table style={{alignContent: "center"}}>
@@ -35,9 +38,6 @@ class trade extends Component {
         </table>
         </div>
        </div>
-       <div style={{alignContent: "center", paddingLeft: "29%"}}>
-  <img src="http://media.lonelyplanet.com/trade/img/map4.jpg" alt="map" />
-      </div>
       </div>
     );
   }

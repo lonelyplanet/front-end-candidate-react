@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import MainContent from "../components/mainContent";
 import RelativeLinks from "../components/relativeLinks";
-import InternationalLinks from "../components/internationalLinks";
 import Header from "../components/header";
 import "./index.css";
 import internationalData from "../components/internationalData";
