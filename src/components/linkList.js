@@ -5,7 +5,7 @@ import "./linkList.css";
 
 const LinkList = ({ title, links }) => {
   return (
-    <div>
+    <div className="link-list">
       <h3 className="title">{title}</h3>
       <ul className="list">
         {links.map(item => {

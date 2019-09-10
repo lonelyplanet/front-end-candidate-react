@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
+import "./mainContent.css";
+
 const MainContent = () => {
   const data = useStaticQuery(graphql`
     query mainLinks {
@@ -28,8 +30,10 @@ const MainContent = () => {
       {data.allDataJson.nodes[0].content.list.map(item => {
         return (
           <Fragment key={item.path}>
-            <h2>
-              <a href={item.path}>{item.title}</a>
+            <h2 className="newsroom-heading">
+              <a href={item.path} className="newsroom-link">
+                {item.title}
+              </a>
             </h2>
             <p>{item.description}</p>
           </Fragment>

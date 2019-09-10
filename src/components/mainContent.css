@@ -1,0 +1,11 @@
+.newsroom-heading {
+  text-transform: capitalize;
+  font-weight: normal;
+  margin: 32px 0 8px;
+  font-size: 24px;
+}
+
+.newsroom-link {
+  color: #277bba;
+  text-decoration: none;
+}
